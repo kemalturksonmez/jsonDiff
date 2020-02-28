@@ -17,7 +17,7 @@ $ make
 
 After running make, the program can be run using the command below:
 ```sh
-$ jsonDiff file1.json file2.json
+$ ./jsonDiff file1.json file2.json
 ```
 This command will only work when one is located in the directory of the executable. This means that files will have to have an absolute or relative path provided to run this program. However, one could simply export their directory path to run this program from any directory in your system. This can be done using something like:
 ```sh
