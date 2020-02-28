@@ -12,7 +12,7 @@ def readJson(fileName):
             return jsonFormat
     except:
         print('Please provide two JSON structured files')
-    
+        exit()
 
 # Compares two json structures by representing each object and array value
 # as having the same value
